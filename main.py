@@ -16,7 +16,7 @@ async def main():
 	# Инициализация БД при старте
 	await init_db()
 
-	bot = Bot(token=getenv(BOT_TOKEN)
+	bot = Bot(token=getenv(BOT_TOKEN))
 	dp = Dispatcher()
 
 	# Подключаем роутер с обработчиками
